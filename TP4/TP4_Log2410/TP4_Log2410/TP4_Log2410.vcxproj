@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D8263FB3-723D-47EB-8A7A-182431DB3FBD}</ProjectGuid>
+    <RootNamespace>TP4Log2410</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\AbsPlanFactory.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\AbsRebateDecorator.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\AbsRebateFactory.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\AbsSubscriptionPlan.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\AbsSubscriptionPlanVisitor.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\FixedRebate.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\FixedRebateFactory.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\OccasionalPlanFactory.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\OccasionalUserPlan.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PlanManager.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PolyCharge.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PolyChargePricing.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PremiumPlanFactory.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PremiumUserPlan.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\RegularPlanFactory.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\RegularUserPlan.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\TP4Tests.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\VariableRebate.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\VariableRebateFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\AbsRebateDecorator.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\FixedRebate.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\FixedRebateFactory.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\OccasionalPlanFactory.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\OccasionalUserPlan.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PlanManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PolyCharge-CLI.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PolyChargePricing.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PremiumPlanFactory.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\PremiumUserPlan.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\RegularPlanFactory.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\RegularUserPlan.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\TP4Tests.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\VariableRebate.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\Desktop\PolyCharge-Pricing - Depart\VariableRebateFactory.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
